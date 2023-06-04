@@ -1,0 +1,12 @@
+const neuNumero = 3;
+
+const primeiroNumero = 1;
+const segundoNumero = 2;
+
+const operacaoMatematica = primeiroNumero * segundoNumero;
+
+console.log(operacaoMatematica);
+
+
+const cifrao = '\u0024'
+console.log(cifrao);
