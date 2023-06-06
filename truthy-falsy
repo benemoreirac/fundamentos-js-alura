@@ -1,0 +1,23 @@
+const contapaga = false;
+
+//0 = false;
+//1 = true;
+
+console.log(0 == false)
+console.log("Vazio = false: " + "" == false)
+console.log("1 é true: " + 1 == true)
+
+//null 
+//undefined
+
+// quando cria uma variavel sem definir um valor recebe
+let minhaVar;
+console.log(minhaVar)
+
+
+//null é um tipo de dado
+let varNull = null;
+console.log(varNull);
+
+console.log(typeof minhaVar);
+console.log(typeof varNull);

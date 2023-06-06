@@ -1,0 +1,24 @@
+var altura = 5;
+var comprimento = 7 ;
+
+area = altura * comprimento;
+console.log(area)
+
+var area;
+
+let forma = 'retangulo';
+let alturaLet = 5;
+let comprimentoLet = 7;
+
+areaLet = alturaLet * comprimento;
+console.log(areaLet)
+
+if (forma === 'retangulo'){
+    areaLet = alturaLet * comprimentoLet;
+    console.log("Retangulo" + areaLet)
+} else{
+    areaLet = (alturaLet * comprimentoLet) /2;
+    console.log("Triangulo"+ areaLet)
+}
+
+
